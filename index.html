@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <title>Govnokri Lite App Lite Noti</title>
+</head>
+
+<body>
+<h1 style="text-align: center;margin-top: 30px;font-family: 'Righteous'">Govnokri Notification Panel (LITE)</h1>
+<div class="centerop">
+<h3 class="gov" style="font-family: 'Righteous', cursive;margin-top: 50px;">Go Back To Main Panel</h3>
+    
+<button class="buttonout hvr-float-shadow">Go!</button>
+
+
+<div class="midboxnoti hvr-float-shadow">
+  <p class="animated 1 fadeInDown">Notifications will be Sent via Firebase</p>
+      <form role="form" action="sendpush.php" method="post">
+      
+      <input type="text" name="title" class="title" id="title" placeholder="Title"  required/><br>
+      <input type="text" name="message" class="message" id="msg" placeholder="Message" required /><br>
+      <input type="text" name="link" class="urlc" id="link" placeholder="URL" /><br>
+      <button type="submit" class="buttonin hvr-grow">Send now</button>
+       
+    </form></div>
+
+
+  </div>
+  <style>
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 50px;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    </style>
+    
+    <footer>
+    <div class="footer-copyright">
+        <div class="container">
+            Designed And Developed By 
+        <a class="grey-text text-lighten-4 right" href="#!">Rohit Daftari</a>
+        </div>
+      </div>
+      </footer>
+    <!-- <div class="footer">
+      <p><a href="#" style="font-family: 'Pacifico', cursive;"></a></p>
+    </div>  -->
+  
+</body>
+
+
+</html>
